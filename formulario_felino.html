@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="assunto" content="Formulário de gatos.">
+    <title>App Meu Gatinho Fofinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/Favcon.gatinho.png">
+</head>
+<body>
+    <header>
+        <h1 class="Titles">Formulário Felino</h1>
+        <nav aria-label="navegação primária" class="bt-header">
+            <ul id="lista">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#fatos">Fatos sobre gatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h1>Formulário felino</h1>
+            <p>Responda essa pesquisa e nos ajude a entender mais sobre esses bichinhos lindos.</p>
+            <p>PS Se você quiser, pode anexar uma foto do seu gato para fazer parte de nossa galeria.</p>
+            <hr>
+            <p>Voltar ao topo</p>
+            <form action="">
+                <fieldset>
+                    <legend>
+                        Informações sobre o seu gato
+                    </legend>
+                    <p>
+                        <label for="nomeGato">Qual o nome do seu gato?</label>
+                        <input type="text" name="nomeGato" id="nomeGato" placeholder="ex: Garfield" autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                        <label for="idadeGato">Quantos anos seu gato tem?</label>
+                        <input type="number" name="idadeGato" id="idadeGato" min="1" max="30" step="1" value="1" required>
+                    </p>
+                    <p>Seu(s) gato(s) fica(m) dentro de casa ou tem acesso à rua?</p>
+                    <p>
+                        <input type="radio" name="casaRua" id="casa" value="casa">
+                        <label for="casa">Fica em casa</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="casaRua" id="rua" value="rua">
+                        <label for="casa">Sai pra rua</label>
+                    </p>
+                    <p>Como é a personalidade do seu gato?</p>
+                    <p>
+                        <input type="checkbox" name="personalidade" id="Manhoso">
+                        <label for="Manhoso">Manhoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade" id="Preguiçoso">
+                        <label for="Preguiçoso">Preguiçoso</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade" id="Espoleta">
+                        <label for="Espoleta">Espoleta</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="personalidade" id="Desconfiado">
+                        <label for="Desconfiado">Desconfiado</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>
+                        Seu gato na nossa galeria
+                    </legend>
+                    <p>
+                        Anexe uma foto para nossa equipe adicionar na galeria
+                    </p>
+                    <input type="file" name="anexoFoto" id="anexoFoto">
+                    <p>
+                        <label for="mensagem">Legenda da foto</label>
+                    </p>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Insira a legenda da sua foto aqui"></textarea>
+                </fieldset>
+            </form>
+        </article>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Redefinir</button>
+        <hr>
+        <a href="./formulario_felino.html">
+            <p>Voltar ao topo</p>
+        </a>
+    </main> 
+   <footer>
+        <p>
+            &lt; &copy; Copyright app Meu Gatinho Fofinho &gt;
+        </p>
+    </footer>
+</body>
+</html>
