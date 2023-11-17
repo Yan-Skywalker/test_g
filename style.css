@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-* {
-    background-color: rgb(240, 167, 115);
-}
 html {
     font-family: "Roboto Mono", monospace;
+     background-color: rgb(240, 167, 115);
 }
 header{
     width: 100%;
