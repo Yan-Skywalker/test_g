@@ -23,13 +23,15 @@ nav {
 }
 
 nav li{
-    margin: 20px;
+    margin: 25px;
 }
 
 nav a {
     color: black;
     text-decoration: none;
     border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 nav a:hover {
