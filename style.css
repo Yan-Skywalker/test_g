@@ -32,10 +32,11 @@ nav a {
     border: 2px solid black;
     border-radius: 5px;
     padding: 3px;
+    background-image: linear-gradient(to top left, olive, rgb(238, 238, 110));
 }
 
 nav a:hover {
-    background-color: rgb(77, 13, 137);
+    background-image: linear-gradient(to top left,rgb(150, 78, 217), rgb(77, 13, 137));
     color: white;
     border-radius: 5px;
     padding: 10px;
