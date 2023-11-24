@@ -29,6 +29,7 @@ nav li{
 nav a {
     color: black;
     text-decoration: none;
+    border: 2px solid black;
 }
 
 nav a:hover {
